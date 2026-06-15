@@ -14,7 +14,7 @@ function App() {
 
       <main className="container">
         <div className="card">
-          <h2>Forza Horizon 1</h2>
+          <h2>Forza Horizon</h2>
           <p>Start building your first collection</p>
         </div>
 
