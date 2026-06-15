@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 export default function Navbar() {
@@ -14,18 +15,19 @@ export default function Navbar() {
 
   return (
     <nav className="navbar">
-      
+
       <div className="nav-left">
         <div className="logo">Forza Horizon Garage Tracker</div>
       </div>
 
       <div className="nav-center">
-        <a href="#">Home</a>
-        <a href="#">FH</a>
-        <a href="#">FH2</a>
-        <a href="#">FH3</a>
-        <a href="#">FH4</a>
-        <a href="#">FH5</a>
+        <Link to="/">Home</Link>
+        <Link to="/fh1">FH1</Link>
+        <Link to="/fh2">FH2</Link>
+        <Link to="/fh3">FH3</Link>
+        <Link to="/fh4">FH4</Link>
+        <Link to="/fh5">FH5</Link>
+        <Link to="/fh6">FH6</Link>
       </div>
 
       <div className="nav-right">
