@@ -1,8 +1,12 @@
 import "./index.css";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="app">
+      <Navbar />
+
       <header className="header">
         <h1>Forza Horizon Car Tracker</h1>
         <p>Track every car you own across the Forza Horizon series</p>
@@ -39,6 +43,8 @@ function App() {
           <p>Japan Car List</p>
         </div>
       </main>
+
+      <Footer />
     </div>
   );
 }
