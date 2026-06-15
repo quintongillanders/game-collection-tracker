@@ -18,7 +18,7 @@ function App() {
           element={
             <>
               <header className="header">
-                <h1>Forza Horizon Car Tracker</h1>
+                <h1>Forza Horizon Garage Tracker</h1>
                 <p>Track every car you own across the Forza Horizon series</p>
               </header>
 
