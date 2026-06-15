@@ -24,33 +24,33 @@ function App() {
 
               <main className="container">
                 <Link to="/fh1" className="card">
-                  <h2>Forza Horizon 1</h2>
-                  <p>Start building your first collection</p>
+                  <h2>Forza Horizon</h2>
+                  <p>Track your cars across Horizon Colorado 2012</p>
                 </Link>
 
                 <Link to="/fh2" className="card">
                   <h2>Forza Horizon 2</h2>
-                  <p>Expand your garage across Europe</p>
+                  <p>Track your cars across Horizon Europe</p>
                 </Link>
 
                 <Link to="/fh3" className="card">
                   <h2>Forza Horizon 3</h2>
-                  <p>Australian open-world car collection</p>
+                  <p>Track your cars across Horizon Australia</p>
                 </Link>
 
                 <Link to="/fh4" className="card">
                   <h2>Forza Horizon 4</h2>
-                  <p>UK seasons + rare car hunting</p>
+                  <p>Track your cars across Horizon UK</p>
                 </Link>
 
                 <Link to="/fh5" className="card">
                   <h2>Forza Horizon 5</h2>
-                  <p>Mexico’s massive car list</p>
+                  <p>Track your cars across Horizon Mexico</p>
                 </Link>
 
                 <Link to="/fh6" className="card">
                   <h2>Forza Horizon 6</h2>
-                  <p>Japan Car List</p>
+                  <p>Track your cars across Horizon Japan</p>
                 </Link>
               </main>
             </>
