@@ -3,7 +3,7 @@ import "./FH1.css";
 
 export default function FH1() {
   return (
-    <div className="grid">
+    <div className="fh1-grid">
       {fh1Cars.map((car, index) => (
         <div className="card" key={index}>
           <h3>

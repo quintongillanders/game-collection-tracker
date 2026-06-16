@@ -6,6 +6,10 @@ import { Routes, Route, Link } from "react-router-dom";
 // pages
 import FH1 from "./pages/FH1.jsx";
 import FH2 from "./pages/FH2.jsx";
+import FH3 from "./pages/FH3.jsx";
+import FH4 from "./pages/FH4.jsx";
+import FH5 from "./pages/FH5.jsx";
+import FH6 from "./pages/FH6.jsx";
 
 function App() {
   return (
@@ -61,10 +65,10 @@ function App() {
         {/* PAGES */}
         <Route path="/fh1" element={<FH1 />} />
         <Route path="/fh2" element={<FH2 />} />
-        <Route path="/fh3" element={<div>FH3 coming soon</div>} />
-        <Route path="/fh4" element={<div>FH4 coming soon</div>} />
-        <Route path="/fh5" element={<div>FH5 coming soon</div>} />
-        <Route path="/fh6" element={<div>FH6 coming soon</div>} />
+        <Route path="/fh3" element={<FH3 />} />
+        <Route path="/fh4" element={<FH4 />} />
+        <Route path="/fh5" element={<FH5 />} />
+        <Route path="/fh6" element={<FH6 />} />
       </Routes>
 
       <Footer />
