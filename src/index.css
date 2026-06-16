@@ -104,3 +104,37 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+/* ========================= */
+/* Global Responsive Styles  */
+/* ========================= */
+
+/* Tablets */
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+/* Phones */
+
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr !important;
+    padding: 12px !important;
+    gap: 12px !important;
+  }
+
+  .card {
+    padding: 14px !important;
+  }
+
+  .card h3 {
+    font-size: 1.1rem;
+  }
+
+  .card p {
+    font-size: 0.9rem;
+  }
+}

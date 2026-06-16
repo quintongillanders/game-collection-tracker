@@ -19,11 +19,6 @@ export default function FH1() {
           <p>
             {car.Class} {car.Stock_PI}
           </p>
-
-          <p>
-            {car.Horsepower} HP • {car.Drivetrain}
-          </p>
-
           <p>
             {Number(car.Base_Value_Credits).toLocaleString()} CR
           </p>
